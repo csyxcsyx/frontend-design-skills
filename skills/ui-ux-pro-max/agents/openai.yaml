@@ -1,0 +1,6 @@
+interface:
+  display_name: "UI/UX Pro Max"
+  short_description: "界面设计与体验优化：支持中文需求、设计系统检索和现有项目适配"
+  default_prompt: "请使用 $ui-ux-pro-max，结合当前项目的技术栈和设计规范完成界面设计或优化，并验证相关交互与响应式布局。"
+policy:
+  allow_implicit_invocation: true

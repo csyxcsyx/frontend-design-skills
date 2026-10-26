@@ -1,0 +1,93 @@
+{
+  "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "commit": "09170eec67eefd46a7ae85de61b40c194020f997",
+  "source_path": ".claude/skills/ui-ux-pro-max",
+  "local_changes": [
+    "SKILL.md",
+    "agents/openai.yaml",
+    "references/design-dials.md",
+    "references/search-guide.md",
+    "references/interaction-guide.md",
+    "references/product-copy.md",
+    "references/web-quality.md",
+    "references/source-notices.md",
+    "references/source-licenses/anthropic-frontend-design-Apache-2.0.txt",
+    "references/source-licenses/impeccable-Apache-2.0.txt",
+    "references/source-licenses/ui-skills-MIT.txt"
+  ],
+  "engine_and_data": "unmodified",
+  "collaboration_added_on": "2026-09-29",
+  "optional_companion": "design-taste-frontend",
+  "presentation_refinement": {
+    "description": "Concise interface copy; graphical icons preferred over text-like substitutes; preserve comprehension and accessibility",
+    "files": [
+      "SKILL.md"
+    ]
+  },
+  "componentization_refinement": "Prefer component-based implementation; keep page entrypoints concise; extract cohesive modules and review state ownership without arbitrary line quotas",
+  "interaction_frame_refinement": "Avoid unintended harsh black frames across control states; use coordinated tokens while preserving keyboard focus, editing cues, and high-contrast modes",
+  "interaction_and_efficiency_refinement": {
+    "date": "2026-10-15",
+    "description": "Discoverable actions, lightweight grouping, correct states, contextual feedback, and on-demand guidance",
+    "runtime_and_catalog": "unchanged"
+  },
+  "design_content_integration": {
+    "date": "2026-10-25",
+    "mode": "selective compact integration; no new discoverable skill",
+    "sources": [
+      {
+        "repository": "anthropics/skills",
+        "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+        "paths": [
+          "skills/frontend-design/SKILL.md"
+        ],
+        "stars_display": "183.6k",
+        "license": "Apache-2.0",
+        "use": "Task-specific art direction; words as usable content; one focused render review"
+      },
+      {
+        "repository": "pbakaus/impeccable",
+        "commit": "936867543ac2576920d663cc9803597f6044f3ac",
+        "paths": [
+          ".agents/skills/impeccable/reference/clarify.md",
+          ".agents/skills/impeccable/reference/distill.md",
+          ".agents/skills/impeccable/reference/typeset.md",
+          ".agents/skills/impeccable/reference/craft-floor.md",
+          ".agents/skills/impeccable/reference/mode-operate.md"
+        ],
+        "stars_display": "86.7k",
+        "license": "Apache-2.0",
+        "use": "Message hierarchy, removal of redundant helper text, type/grouping, task-specific density"
+      },
+      {
+        "repository": "vercel-labs/agent-skills",
+        "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+        "paths": [
+          "skills/web-design-guidelines/SKILL.md"
+        ],
+        "stars_display": "33.0k",
+        "license": "No license file found in this pinned collection; no source text/code vendored",
+        "use": "Relevant web review routing; independently summarized interface-quality principles",
+        "additional_source": "https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/command.md"
+      },
+      {
+        "repository": "ibelick/ui-skills",
+        "commit": "55363c305097d4c84487bd5f323d29b3f067bf72",
+        "paths": [
+          "skills/baseline-ui/SKILL.md",
+          "skills/fixing-accessibility/SKILL.md"
+        ],
+        "stars_display": "10.1k",
+        "license": "MIT",
+        "use": "Reuse accessible primitives, coherent type/spacing, actionable errors and empty states"
+      }
+    ],
+    "source_notes": "references/source-notices.md",
+    "engine_and_catalog": "unchanged"
+  },
+  "distribution": {
+    "repository": "https://github.com/csyxcsyx/frontend-design-skills",
+    "packaged_on": "2026-10-26",
+    "notes": "Portable redistribution of the locally adapted skill pair; original sources and licenses retained."
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Taste Frontend"
+  short_description: "官网与作品集视觉设计：强化构图、排版、品牌表达并协同交互规范"
+  default_prompt: "请使用 $design-taste-frontend，结合现有品牌与技术栈，改善页面构图、排版和视觉表达；需要交互规范时结合 $ui-ux-pro-max。"
+policy:
+  allow_implicit_invocation: true
