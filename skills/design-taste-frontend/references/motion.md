@@ -5,7 +5,9 @@ Read only when motion contributes to the brief. Preserve upstream Taste's emphas
 Choose the smallest mechanism already suitable for the project: CSS for simple transitions, the installed UI animation system for component states, and a scroll library only for a justified complex sequence. Before adding an effect, identify its purpose: feedback, hierarchy, explanation, or state continuity. Decorative motion should not block reading or input.
 
 - Use transform/opacity when they express the effect well; avoid layout work in continuous frame loops and update motion values without rerendering the full UI on each frame.
-- Restrict transitions to intended properties instead of `transition: all`.
+- Restrict transitions to intended properties instead of `transition: all`. Hover fades should be prompt and interruptible; changing targets must not leave stuck highlights or invisible layers intercepting input.
+- Keep content surfaces opaque over connectors/decorations; animate a separate highlight or decoration rather than fading the whole node/card. Verify counters, labels, spinners and entry/exit states do not cause layout jumps.
+- A requested primary action may use a restrained breathing/attention effect, but it is not a default for every button. Preserve a clear readable hit target, pause irrelevant offscreen motion, and provide a reduced-motion/static state.
 - Scope selectors and animation ownership to the component. Different engines can coexist on separate targets; do not let them control the same property on the same element.
 - Clean up listeners, observers, timelines, and temporary styles on unmount and when media conditions change. Test repeated navigation and development-mode remounts.
 - Honor reduced motion at every intensity. Content remains visible and usable when animation is disabled, unsupported, or fails; essential content must not remain at opacity zero.

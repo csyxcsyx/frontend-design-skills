@@ -1,16 +1,16 @@
 # Shared work, not stacked workflows
 
-Read only for a routing or dial question. Both skills are independent; an absent companion need not be installed to continue.
+Read only for routing/dials. Both skills work independently; an absent companion need not be installed.
 
 | Surface | Guidance |
 |---|---|
-| Landing, brand, portfolio, editorial web | Taste for composition; UI/UX Pro Max only for concrete UX/catalog gaps |
-| Dashboard, table, complex form, native workflow | UI/UX Pro Max and product/platform conventions; no marketing scaffold |
-| Mixed site/product | Route each surface separately; share brand tokens, not identical density or motion |
-| Small fix or review | Smallest useful guidance; reviews do not authorize implementation |
+| Landing, brand, portfolio, editorial web | Taste composition; UI/UX Pro Max for concrete UX gaps |
+| Dashboard, table, complex form, native workflow | Product/platform guidance and UI/UX Pro Max; no marketing scaffold |
+| Mixed product | Share brand tokens, not identical navigation/density/motion |
+| Small fix/review | Smallest useful guidance; review does not authorize implementation |
 
-Use one brief, content vocabulary, token set, component structure, search result set, and verification pass. Prefer real task names over slogans, useful copy over captions for decoration, and recognizable actions over excessive boxes. Read only the relevant optional copy, interaction, composition, motion, or web-quality section. Do not stack imported commands, run several audits, or request subagents because multiple sources informed these rules.
+Share one brief, vocabulary, token set, component structure, search result set and validation pass. Titles, compact copy, stable layout, correct persistent state and clear hit ownership matter more than decoration. Read only affected optional copy, interaction, dense-surface, composition, motion or web-quality sections; no stacked audits, imported command workflows or subagents.
 
-User/project instructions govern. Preserve functionality, truthful meaning, accessibility, essential help, and design contracts before aesthetic preferences. Skills are decision guidance, not a fixed style, framework, or proof of quality. Source and license records are maintenance information, not required runtime context.
+User/project requirements govern. Preserve functionality, truthful states, accessibility and essential help before aesthetic preferences. Do not turn contextual requests—three-column graphs, blurred teasers, breathing buttons, centered notices or checkbox-only clicking—into universal rules. Source/permission records are maintenance information, not mandatory design context.
 
-If dials help, share one 1–10 set: DESIGN_VARIANCE → `--variance`, MOTION_INTENSITY → `--motion`, VISUAL_DENSITY → `--density`. The mapping is conceptual; generator output is not a quality score and an emitted GSAP example does not require GSAP. Preserve appropriate existing motion/density rather than escalating automatically.
+If useful, share one 1–10 dial set: DESIGN_VARIANCE → `--variance`, MOTION_INTENSITY → `--motion`, VISUAL_DENSITY → `--density`. This is conceptual intent, not a quality score or dependency requirement; do not increase motion or density automatically.

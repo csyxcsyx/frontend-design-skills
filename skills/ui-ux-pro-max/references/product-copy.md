@@ -35,6 +35,10 @@ Errors identify what failed and the available recovery, with a cause only if kno
 
 For uncommon professional terms, use short local help accessible on focus and touch as well as hover. Essential requirements and error recovery stay available without opening optional help. Keep visible labels and accessible names aligned. Preserve translatable messages, localization expansion, keyboard access, and readable type; do not force English word limits or unexplained abbreviations onto other languages.
 
+## Status without duplication or false certainty
+
+State the same status once. For example, “待确认 · 密钥类型未确认” can usually become “待确认”, with a genuinely useful reason available in local help. Preserve independent facts such as source, uncertainty or a required next action; do not erase them as repetitions. Saved/configured, enabled, connection-tested and currently running are different facts. An AI opinion or missing evidence must not become a confirmed result through simpler wording. Stable status placement matters as well as shorter text.
+
 ## Finish in one coordinated pass
 
 Read the rendered flow once where available: heading versus subtitle, control versus hint, action versus result. Remove repetitions, check terminology and factual meaning, then fix only identified problems. Do not run a separate document-polishing skill, score text for “AI probability,” generate several rewritten versions, or load all sources just to edit one label. Report actual limitations instead of claiming the copy was user-tested.

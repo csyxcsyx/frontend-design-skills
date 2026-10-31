@@ -13,7 +13,8 @@
     "references/source-notices.md",
     "references/source-licenses/anthropic-frontend-design-Apache-2.0.txt",
     "references/source-licenses/impeccable-Apache-2.0.txt",
-    "references/source-licenses/ui-skills-MIT.txt"
+    "references/source-licenses/ui-skills-MIT.txt",
+    "references/dense-surfaces.md"
   ],
   "engine_and_data": "unmodified",
   "collaboration_added_on": "2026-09-29",
@@ -89,5 +90,18 @@
     "repository": "https://github.com/csyxcsyx/frontend-design-skills",
     "packaged_on": "2026-10-26",
     "notes": "Portable redistribution of the locally adapted skill pair; original sources and licenses retained."
+  },
+  "product_feedback_refinement": {
+    "date": "2026-10-31",
+    "topics": [
+      "content-sized stable workspaces",
+      "non-disruptive detail surfaces",
+      "accurate persistent states and hit ownership",
+      "non-blocking routine notices",
+      "opaque surfaces and restrained motion",
+      "truthful overview/full-view graph interaction"
+    ],
+    "scope": "general UI lessons; no project-specific diagram, provider or API settings",
+    "loading": "essential rules in compact entries; detail/graph guidance on demand"
   }
 }
