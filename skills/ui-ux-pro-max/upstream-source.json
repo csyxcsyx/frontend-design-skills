@@ -14,7 +14,9 @@
     "references/source-licenses/anthropic-frontend-design-Apache-2.0.txt",
     "references/source-licenses/impeccable-Apache-2.0.txt",
     "references/source-licenses/ui-skills-MIT.txt",
-    "references/dense-surfaces.md"
+    "references/dense-surfaces.md",
+    "references/quick-reference.md",
+    "references/pro-rules.md"
   ],
   "engine_and_data": "unmodified",
   "collaboration_added_on": "2026-09-29",
@@ -103,5 +105,11 @@
     ],
     "scope": "general UI lessons; no project-specific diagram, provider or API settings",
     "loading": "essential rules in compact entries; detail/graph guidance on demand"
+  },
+  "direct_copy_and_control_feedback": {
+    "date": "2026-11-07",
+    "copy": "Direct UI statements; retain meaningful negation and factual states",
+    "controls": "Stable perimeters across mouse interaction; clear background/label/bottom keyboard cues; preserve system high contrast",
+    "scope": "Compact rules and existing on-demand references; no runtime or catalog changes"
   }
 }

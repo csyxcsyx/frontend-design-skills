@@ -20,9 +20,11 @@ Hit areas must match the visible control's ownership. Test checkbox, label, adja
 
 ## Focus and surfaces
 
-Inspect inherited borders, outlines, rings and shadows in rest/hover/press/post-click/selected states. Replace unintended harsh black frames with theme-coordinated feedback while preserving requested intentional styling. On web, use `:focus-visible` or the established accessible mechanism. Keep editing cues, clearly visible keyboard focus and high-contrast/forced-colors behavior. Never suppress focus globally, programmatically blur a clicked control or hide focus with low contrast. Web selectors are not a native-UI implementation.
+Keep existing resting input/control boundaries stable. Mouse press, acquired focus, dropdown expansion, selection and post-click states should add no surrounding outline, external ring, halo-like box-shadow or intensified perimeter border, in any color. Inspect the control, wrapper, pseudo-elements, browser/native default and library styles, including focus-within; check open, selected, closed and blurred states. A dropdown popup's own separating surface/boundary serves a different role and may remain.
 
-Hover/selection effects must not make a content card translucent so connectors or decorations show through text. Keep content surfaces opaque; animate a separate highlight, border, decoration or transition layer. Transitions should be brief, interruptible and responsive to a new target; invisible exit layers must not intercept input. No fixed universal duration or breathing effect is required.
+Express editing, selection and keyboard focus with a sufficiently contrasting background, label emphasis or bottom indicator, without changing layout geometry. On web, use `:focus-visible` or the existing accessible mechanism for keyboard-specific treatment and scoped rules for pointer states. Provide a visible alternative before replacing a default focus outline. Retain logical focus, keyboard operation and system high-contrast/forced-colors behavior, including necessary system indicators. Native controls use equivalent platform styles. Global focus removal, forced blur and low-contrast concealment are unsuitable fixes.
+
+Hover/selection effects must not make a content card translucent so connectors or decorations show through text. Keep content surfaces opaque; animate a separate background highlight, decoration or transition layer that respects the stable control boundary. Transitions should be brief, interruptible and responsive to a new target; invisible exit layers must not intercept input. No fixed universal duration or breathing effect is required.
 
 ## Truthful loading and stable updates
 
@@ -46,4 +48,4 @@ Use short local help for unfamiliar terms, accessible on focus and touch as well
 
 ## Focused checks
 
-Check relevant roles at rest, press/release/cancel, after blur, and by Tab/Shift+Tab/Space. Verify mode A → B → A, persistent selection, hit ownership, loading/revisit/failure, notice lifecycle, menus/help and no hidden focus. For detail panes, crowded cards or graphs, read [dense-surfaces.md](dense-surfaces.md). Batch these with the actual affected render; repeat only after changes or unresolved failures. A rule walkthrough is not runtime UI validation.
+Check relevant roles at rest, press/release/cancel, after blur, and by Tab/Shift+Tab/Space. Check input click/type/blur, dropdown open/select/close/post-click, mode A → B → A, persistent selection, hit ownership, feedback and keyboard/high-contrast cues. Inspect both controls and wrappers for added perimeter effects in every color. For detail panes, crowded cards or graphs, read [dense-surfaces.md](dense-surfaces.md). Batch these with the actual affected render; repeat only after changes or unresolved failures. A rule walkthrough is not runtime UI validation.

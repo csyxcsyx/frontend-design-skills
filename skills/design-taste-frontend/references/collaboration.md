@@ -1,6 +1,6 @@
 # Shared work, not stacked workflows
 
-Read only for routing/dials. Both skills work independently; an absent companion need not be installed.
+Read for routing/dials only; both skills also work independently.
 
 | Surface | Guidance |
 |---|---|
@@ -9,8 +9,8 @@ Read only for routing/dials. Both skills work independently; an absent companion
 | Mixed product | Share brand tokens, not identical navigation/density/motion |
 | Small fix/review | Smallest useful guidance; review does not authorize implementation |
 
-Share one brief, vocabulary, token set, component structure, search result set and validation pass. Titles, compact copy, stable layout, correct persistent state and clear hit ownership matter more than decoration. Read only affected optional copy, interaction, dense-surface, composition, motion or web-quality sections; no stacked audits, imported command workflows or subagents.
+Share one brief, vocabulary, tokens, components, search results and validation pass. Prioritize direct copy, stable layout, clear hit ownership and accurate state. Read affected optional sections only; retain the current agent workflow.
 
-User/project requirements govern. Preserve functionality, truthful states, accessibility and essential help before aesthetic preferences. Do not turn contextual requests—three-column graphs, blurred teasers, breathing buttons, centered notices or checkbox-only clicking—into universal rules. Source/permission records are maintenance information, not mandatory design context.
+User/project requirements govern. Preserve functionality, truthful state, accessibility and essential help. Keep project-specific graphs, effects, notice placement and checkbox contracts contextual. Source records are maintenance references.
 
 If useful, share one 1–10 dial set: DESIGN_VARIANCE → `--variance`, MOTION_INTENSITY → `--motion`, VISUAL_DENSITY → `--density`. This is conceptual intent, not a quality score or dependency requirement; do not increase motion or density automatically.

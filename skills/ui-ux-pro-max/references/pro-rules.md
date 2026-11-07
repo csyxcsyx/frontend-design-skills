@@ -28,7 +28,7 @@ These are frequently overlooked issues that make UI look unprofessional.
 |------|----|----- |
 | **Tap feedback** | Provide clear pressed feedback (ripple/opacity/elevation) within 80-150ms | No visual response on tap |
 | **Animation timing** | Use shared tokens chosen for distance, complexity, platform, and user context | One duration/easing copied to every transition |
-| **Accessibility focus** | Ensure screen reader focus order matches visual order and labels are descriptive | Unlabeled controls or confusing focus traversal |
+| **Accessibility focus** | Keep logical focus order, descriptive labels and visible background/label/bottom cues; preserve system high contrast | Added mouse-click perimeter effects or hidden keyboard focus |
 | **Disabled state clarity** | Use disabled semantics (`disabled`/native disabled props), reduced emphasis, and no tap action | Controls that look tappable but do nothing |
 | **Touch target minimum** | Keep tap areas >=44x44pt (iOS) or >=48x48dp (Android), expand hit area when icon is smaller | Tiny tap targets or icon-only hit areas without padding |
 | **Gesture conflict prevention** | Keep one primary gesture per region and avoid nested tap/drag conflicts | Overlapping gestures causing accidental actions |

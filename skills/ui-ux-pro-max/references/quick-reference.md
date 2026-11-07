@@ -7,7 +7,7 @@ Load this file when doing a UI review/audit pass, or when you need the full chec
 ### 1. Accessibility (CRITICAL)
 
 - `color-contrast` - Minimum 4.5:1 ratio for normal text (large text 3:1); Material Design
-- `focus-states` - Visible focus rings on interactive elements (2–4px; Apple HIG, MD)
+- `focus-states` - Clearly visible keyboard focus via contrasting background, label, or bottom indicator; keep mouse-click control perimeters stable and preserve system high-contrast behavior (local adaptation).
 - `alt-text` - Descriptive alt text for meaningful images
 - `aria-labels` - aria-label for icon-only buttons; accessibilityLabel in native (Apple HIG)
 - `icon-context` - Semantics depend on use: decorative icons beside visible text are hidden from the accessibility tree; meaningful icons need a text alternative; icon controls need an accessible name and applicable state

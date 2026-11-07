@@ -5,7 +5,7 @@ description: "Design, implement, and review web, mobile, and desktop interfaces 
 
 # UI/UX Pro Max
 
-Design around the product and task. Catalog entries are recommendations, not authority over the brief or proof of compliance.
+Design for the actual task; assess catalog suggestions against the brief and verify the result.
 
 ## Ground and scope
 
@@ -13,9 +13,9 @@ Inspect actual content, project rules, stack/version, tokens and components. Ide
 
 ## Essential decisions
 
-- **Useful words:** headings name the screen/object/task and buttons name outcomes. Avoid invented poetic slogans such as “让数据，清晰可见”. Omit subtitles, hints, badges and notes without distinct identification, decision, action or recovery value. Say each status once without erasing uncertainty or provenance. Keep labels, units, requirements, errors, consequences and disclosures. Use consistent terms; read [product-copy.md](references/product-copy.md) for copy-heavy work.
+- **Direct, useful copy:** titles name the task/object and buttons name outcomes. State current facts, available functions and next actions directly; omit ornamental slogans, redundant small text and gratuitous “不是……而是……” / “……，不是……” contrasts. Keep meaningful negation for errors, limits, incomplete states, risks and quoted/approved content; preserve uncertainty and provenance. Use consistent terms and retain labels, units, requirements and disclosures. Read [product-copy.md](references/product-copy.md) for copy-heavy work.
 - **Visible actions, light grouping:** ambiguous actions need a resting cue, not hover alone: coordinated soft surfaces, segments, rows, underlines or local emphasis. Use spacing/alignment instead of isolated rectangles and decorative nested frames. Keep necessary input boundaries. Hit areas must have clear ownership; unrelated row whitespace must not trigger a nearby control. Respect explicit surface-specific hit-area requests while preserving keyboard names/operation and usable targets.
-- **Correct state:** separate temporary press, persistent selection, expansion, disabled and focus. Selected modes survive blur; mode choices switch directly and unavailable actions do not look enabled. Avoid unintended harsh black borders/rings/shadows with coordinated feedback, retaining visible keyboard focus, editing cues and high-contrast support. Never globally suppress focus or blur controls to hide it.
+- **State and focus:** distinguish press, persistent selection, expansion, disabled and focus. Selection survives blur; enabled modes switch directly. Keep resting input boundaries stable: mouse press/focus, dropdown opening and post-click states add no surrounding outline, ring, halo or border strengthening in any color. Use background, label or bottom indicators for editing, selection and visible keyboard focus. Preserve system high contrast; apply scoped replacements with clear cues, retaining focus and keyboard behavior.
 - **Stable, readable layout:** size cards and text to actual content; prevent clipped labels, badges and edge controls. Use available workspace without arbitrary empty blocks or forcing everything into one screen. Keep primary anchors stable during updates. Prefer a suitable detail surface over expanding one grid item into a tall empty row. Read relevant [dense-surfaces.md](references/dense-surfaces.md) sections for dense cards, details or graphs.
 - **Icons and feedback:** prefer graphical icons, not letters/words posing as icons. Retain meaningful file labels, shortcuts, formatting controls and brand marks; keep needed visible/accessibility labels and hide redundant decorative icons from assistive technology. Loading/status must reflect real work; routine notices should not require dismissal or resize the page, while decisions/errors needing action remain accessible. Read affected [interaction-guide.md](references/interaction-guide.md) sections for feedback, help, popups and state work.
 - **Craft and code:** use semantic type/color/spacing/layer roles, readable contrast and task-appropriate density. Check actual scripts/fonts, long labels, zoom and themes in scope. Decorations cannot obscure content; motion is purposeful, interruptible and reduced-motion aware. Compose focused components in suitable files with clear state ownership; extract substantial/repeated UI and logic rather than hiding an oversized page behind local render helpers. No arbitrary line quotas or trivial wrappers.
@@ -24,7 +24,7 @@ Inspect actual content, project rules, stack/version, tokens and components. Ide
 
 Proceed when project guidance suffices. Search concrete gaps only: read [search-guide.md](references/search-guide.md) when invoking the catalog, start with 1–3 results, rewrite at most once, check relevance and label fallbacks. Full system generation is for a genuinely new direction. Reuse successful searches and already-read guidance.
 
-Read applicable [quick rules](references/quick-reference.md), [native polish](references/pro-rules.md) or [web quality](references/web-quality.md) sections only. No automatic full-reference reads, network refreshes, detectors or stacked audits.
+Read relevant [quick rules](references/quick-reference.md), [native polish](references/pro-rules.md) or [web quality](references/web-quality.md) sections only; reuse evidence and combine checks.
 
 Inspect the affected render: hierarchy, copy, content fit, pointer/keyboard state and layout stability at in-scope sizes/themes/zoom; check changed details/graphs/notices. Review module boundaries and applicable project checks together. Fix defects and recheck their effects without scoring loops, cosmetic variants or unexplained repeats. Report actual evidence/limitations; source review is not a visual test.
 

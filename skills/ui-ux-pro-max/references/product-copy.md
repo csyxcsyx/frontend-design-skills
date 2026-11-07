@@ -27,6 +27,20 @@ These are contextual examples, not text to paste into every application:
 
 Use concrete nouns and direct verbs rather than mood, vague promises, internal implementation jargon, or ornamental pauses. Do not invent a product benefit, domain, statistic, or operation to make the wording specific. Keep one term for one concept through labels, messages, and results; do not substitute synonyms for style. A sentence-case convention in English should not override another language's normal typography.
 
+## Direct statements with accurate meaning
+
+Lead with the available function, current fact, result or next action. Omit an unrequested absent alternative or corrective tail such as “X，不是Y”, “不是X，而是Y”, or “not X, but Y” when it adds no decision value. This is a preference for interface copy, not a ban on words or on the skill's implementation constraints.
+
+Examples, only when factually equivalent:
+
+| Unnecessary contrast | Direct wording |
+|---|---|
+| 这是本地预览，不是最终导出文件 | 本地预览 |
+| 这里不是配置入口，而是结果页面 | 扫描结果 |
+| 支持 PNG 和 JPG，没有 PDF 导出 | 支持 PNG、JPG 导出 |
+
+Keep a limitation explicit where it affects a decision: “此格式暂不支持，请选择 PNG 或 JPG”. Preserve “未保存”“未连接”“尚未验证”, warnings, negated conditions, quotations and approved copy when meaningful. Directness must preserve uncertainty and the exact factual claim; an unavailable or unknown state cannot become success. Remove a contrast only when the remaining statement still gives users what they need.
+
 ## Keep information needed for safe use
 
 Preserve meaningful conditions, negation, units, names, numbers, uncertainty, attribution, and consequences. Do not shorten a different claim into apparent certainty. Keep labels persistent; placeholders show examples rather than replace labels. Make action names specific when context is insufficient.
